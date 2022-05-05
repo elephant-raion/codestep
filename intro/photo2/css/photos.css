@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+.photos {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.photos__list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.photos__item {
+  width: 49%;
+}
+
+.photos__img {
+  width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .photos_list {
+    flex-direction: column;
+  }
+
+  .photos__item {
+    width: 100%;
+  }
+}

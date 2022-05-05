@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+.index__wrapper {
+  max-width: 600px;
+  padding: 2rem 0;
+  margin: 0 auto;
+}
+
+.index__title {
+  margin-bottom: 1rem;
+}
+
+.index__list {
+  margin-left: 1rem;
+}
+
+.index__item {
+  margin-bottom: 1rem;
+}

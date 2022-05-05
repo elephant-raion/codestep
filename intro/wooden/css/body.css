@@ -1,0 +1,35 @@
+@charset "UTF-8";
+@import url("./header.css");
+@import url("./concept.css");
+@import url("./work.css");
+@import url("./footer.css");
+
+.body {
+  font-family: "Crimson Text", serif;
+}
+
+.body__main-visual {
+  display: block;
+  width: 90vw;
+  margin: 0 auto;
+}
+
+.body__header {
+  width: 90vw;
+  margin: 0 auto;
+}
+
+.body__concept {
+  max-width: 1000px;
+  margin: 3rem auto;
+}
+
+.body__work {
+  max-width: 1000px;
+  margin: 3rem auto;
+}
+
+.body__footer {
+  width: 90vw;
+  margin: 3rem auto 0 auto;
+}

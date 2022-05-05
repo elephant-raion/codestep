@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+.logo {
+  line-height: 0;
+}
+
+.logo__link {
+  display: inline-block;
+  max-width: 10rem;
+}
+
+.logo__img {
+  width: 100%;
+}

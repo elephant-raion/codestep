@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 3rem;
+}
+
+.footer__sns-list {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.footer__sns-item {
+  padding: 0 2rem;
+}
+
+.footer__sns-link {
+  color: black;
+}

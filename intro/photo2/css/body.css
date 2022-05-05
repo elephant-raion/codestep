@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+@import url("./header.css");
+@import url("./index.css");
+@import url("./photos.css");
+@import url("./detail.css");
+@import url("./footer.css");
+
+
+.body__header {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.body__main-visual {
+  display: block;
+  max-width: 1000px;
+  width: 100%;
+  object-fit: contain;
+  margin: 0 auto 3rem auto;
+}
+
+.body__index {
+  max-width: 800px;
+  margin: 3rem auto;
+}
+
+.body__photos {
+  max-width: 800px;
+  margin: 3rem auto;
+}
+
+.body__detail {
+  max-width: 800px;
+  margin: 3rem auto;
+}
+
+.body__footer {
+  max-width: 1000px;
+  margin: 2rem auto 0 auto;
+}

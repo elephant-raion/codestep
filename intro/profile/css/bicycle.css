@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+.bicycle {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bicycle__title {
+  padding-bottom: 0.5rem;
+  margin-bottom: 3rem;
+  border-bottom: 1px solid grey;
+}
+
+.bicycle__gallery {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.bicycle__item {
+  width: 30%;
+}
+
+.bicycle__img {
+  max-width: 100%;
+}
+
+.bicycle__name {
+  text-align: center;
+}
+
+.bicycle__description {
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .bicycle {
+    max-width: 600px;
+  }
+
+
+  .bicycle__gallery {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .bicycle__item {
+    width: 100%;
+    margin-bottom: 3rem;
+  }
+}

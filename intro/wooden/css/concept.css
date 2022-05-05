@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+.concept {
+  width: 100%;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.concept__img {
+  width: 50%;
+}
+
+.concept__text {
+  width: 50%;
+  padding: 0 2rem;
+}
+
+.concept__title {
+  font-weight: normal;
+  margin-bottom: 1rem;
+}
+
+.concept__title-en {
+  font-size: 0.95rem
+}
+
+@media screen and (max-width: 767px) {
+  .concept {
+    flex-direction: column;
+  }
+
+  .concept__img {
+    width: 100%;
+  }
+
+  .concept__text {
+    width: 100%;
+  }
+
+  .concept__title {
+    margin-top: 1rem;
+  }
+}

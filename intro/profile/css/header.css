@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  line-height: 0;
+}
+
+.header__logo-link {
+  display: inline-block;
+}
+
+.header__logo-img {
+  max-width: 10rem;
+}
+
+.header__nav-list {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header__nav-item {
+  padding: 0 1rem;
+}
+
+.header__nav-link {
+  color: black;
+  text-decoration: none;
+}
+
+.header__nav-link:hover {
+  opacity: 0.7;
+}

@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__button {
+  margin-bottom: 5rem;
+}
+
+.footer__button-link {
+  color: black;
+  padding: 1rem 3rem;
+  border: 1px solid black;
+  text-decoration: none;
+}
+
+.footer__button-link:hover {
+  opacity: 0.5;
+}
+
+.footer__sns-list {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.footer__sns-item {
+  padding: 0 2rem;
+}
+
+.footer__sns-link {
+  color: black;
+}
